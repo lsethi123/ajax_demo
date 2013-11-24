@@ -1,10 +1,10 @@
-
 ### Ajax Demao
 
 
 To show the Current time on the index page
 
-Added code index.html.erb
+Added code in  index.html.erb
+
 <div id="datePanel">
   The Current Time is <span id=time_span> <%= @current_time%></span>
   <span> <%=link_to 'Update Time',posts_update_time_path, :remote=>true%></span>
@@ -17,6 +17,7 @@ create action called update_time in Posts controller which return you the curren
 Create the update_time.js.erb which will update the time_span content run time using the ajax
 
 Added action in routes
+
 get "posts/update_time"
 
 steps to run app
