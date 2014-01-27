@@ -26,3 +26,7 @@ steps to run app
 2)rake db:create
 3)rake db:migrate
 4)rails s
+
+
+``
+https://www.codeship.io/projects/f843c510-6985-0131-27b4-2ef4c5438951/status
